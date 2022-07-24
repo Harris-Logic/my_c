@@ -1,0 +1,3 @@
+/Users/liang/Desktop/c/sec5_bitree/calloc全自动初始化赋NULL_不需手动初始化/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/liang/Desktop/c/sec5_bitree/calloc全自动初始化赋NULL_不需手动初始化/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liang/Desktop/c/sec5_bitree/calloc全自动初始化赋NULL_不需手动初始化/cmake-build-debug/CMakeFiles/calloc全自动初始化赋NULL_不需手动初始化_main.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/sec5_bitree/calloc全自动初始化赋NULL_不需手动初始化/main.cpp
+stdio.h
+/Users/liang/Desktop/c/sec5_bitree/calloc全自动初始化赋NULL_不需手动初始化/stdio.h
+stdlib.h
+/Users/liang/Desktop/c/sec5_bitree/calloc全自动初始化赋NULL_不需手动初始化/stdlib.h
+iostream
+/Users/liang/Desktop/c/sec5_bitree/calloc全自动初始化赋NULL_不需手动初始化/iostream
+

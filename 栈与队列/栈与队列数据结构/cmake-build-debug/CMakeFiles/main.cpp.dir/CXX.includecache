@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/栈与队列/栈与队列数据结构/queue.cpp
+
+/Users/liang/Desktop/c/栈与队列/栈与队列数据结构/stack.cpp
+

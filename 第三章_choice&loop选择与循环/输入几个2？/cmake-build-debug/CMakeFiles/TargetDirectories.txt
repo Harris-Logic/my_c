@@ -1,0 +1,3 @@
+/Users/liang/Desktop/c/输入几个2？/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/liang/Desktop/c/输入几个2？/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liang/Desktop/c/输入几个2？/cmake-build-debug/CMakeFiles/2.dir

@@ -1,0 +1,3 @@
+/Users/liang/Desktop/c/sec5_bitree/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/liang/Desktop/c/sec5_bitree/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liang/Desktop/c/sec5_bitree/cmake-build-debug/CMakeFiles/sec5_bitree.dir

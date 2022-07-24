@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/第七章结构体/untitled1/main.cpp
+iostream
+-
+cstdlib
+/Users/liang/Desktop/c/第七章结构体/untitled1/cstdlib
+

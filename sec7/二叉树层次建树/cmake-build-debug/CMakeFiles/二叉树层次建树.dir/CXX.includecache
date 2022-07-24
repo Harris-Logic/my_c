@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/sec7/二叉树层次建树/function.h
+stdio.h
+-
+stdlib.h
+-
+
+/Users/liang/Desktop/c/sec7/二叉树层次建树/main.cpp
+function.h
+/Users/liang/Desktop/c/sec7/二叉树层次建树/function.h
+

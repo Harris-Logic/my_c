@@ -1,0 +1,10 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/liang/Desktop/c/sec5_bitree
+CMake Error at 二叉树遍历与层次建树_可初试考察/CMakeLists.txt:3 (add_executable):
+  The target name "二叉树遍历与层次建树_可初试考察_main" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/liang/Desktop/c/sec5_bitree/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/liang/Desktop/c/sec5_bitree/cmake-build-debug/CMakeFiles/CMakeError.log".

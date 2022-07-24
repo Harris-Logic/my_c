@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/栈与队列/栈与队列数据结构/function.h
+stdio.h
+/Users/liang/Desktop/c/栈与队列/栈与队列数据结构/stdio.h
+stdlib.h
+/Users/liang/Desktop/c/栈与队列/栈与队列数据结构/stdlib.h
+iostream
+/Users/liang/Desktop/c/栈与队列/栈与队列数据结构/iostream
+
+/Users/liang/Desktop/c/栈与队列/栈与队列数据结构/main.cpp
+function.h
+/Users/liang/Desktop/c/栈与队列/栈与队列数据结构/function.h
+

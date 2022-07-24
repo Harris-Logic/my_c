@@ -1,0 +1,3 @@
+/Users/liang/Desktop/c/untitled1/使用C的引用/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/liang/Desktop/c/untitled1/使用C的引用/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liang/Desktop/c/untitled1/使用C的引用/cmake-build-debug/CMakeFiles/使用C的引用_main.dir

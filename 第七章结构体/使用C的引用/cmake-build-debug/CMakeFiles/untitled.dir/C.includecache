@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/第七章结构体/使用C的引用/main.c
+stdio.h
+-
+stdlib.h
+/Users/liang/Desktop/c/第七章结构体/使用C的引用/stdlib.h
+

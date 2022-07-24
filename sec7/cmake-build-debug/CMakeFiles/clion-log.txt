@@ -1,0 +1,55 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/liang/Desktop/c/sec7
+CMake Error at 使用C++的引用/CMakeLists.txt:7 (add_executable):
+  The target name "使用C++的引用_main" is reserved or not valid for
+  certain CMake features, such as generator expressions, and may result in
+  undefined behavior.
+
+
+CMake Error at 使用C的引用/CMakeLists.txt:7 (add_executable):
+  The target name "使用C的引用_main" is reserved or not valid for
+  certain CMake features, such as generator expressions, and may result in
+  undefined behavior.
+
+
+CMake Error at 头插法新建链表并输出_通过尾插法新建链表并输出/CMakeLists.txt:7 (add_executable):
+  The target name
+  "头插法新建链表并输出_通过尾插法新建链表并输出_main"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at 查找第二个位置的值并输出_在2个位置插入99_删除第4个位置的值/CMakeLists.txt:7 (add_executable):
+  The target name
+  "查找第二个位置的值并输出_在2个位置插入99_删除第4个位置的值_main"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at 栈_队列_链式实现_未完成/CMakeLists.txt:7 (add_executable):
+  The target name "栈_队列_链式实现_未完成_main" is reserved or not
+  valid for certain CMake features, such as generator expressions, and may
+  result in undefined behavior.
+
+
+CMake Error at 第一次输入插入的元素值，第二次输入删除的位置/CMakeLists.txt:7 (add_executable):
+  The target name
+  "第一次输入插入的元素值，第二次输入删除的位置_main"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at 结构体初探/CMakeLists.txt:7 (add_executable):
+  The target name "结构体初探_main" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+CMake Error at 二叉树层次建树/CMakeLists.txt:3 (add_executable):
+  The target name "二叉树层次建树_main" is reserved or not valid for
+  certain CMake features, such as generator expressions, and may result in
+  undefined behavior.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/liang/Desktop/c/sec7/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/liang/Desktop/c/sec7/cmake-build-debug/CMakeFiles/CMakeError.log".
