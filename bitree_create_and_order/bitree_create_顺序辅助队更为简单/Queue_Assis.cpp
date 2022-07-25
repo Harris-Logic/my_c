@@ -24,6 +24,13 @@ bool EnAssisQueue(pQueue_Assis &q,pBiTree x){
     if(q->length==MAXSIZE) return false;
 
     q->bt[q->rear]=x;q->length++;
+    q->rear++;
     return true;
 }
-bool DeAssisQueue(pQueue_Assis &q, pBiTree &x);
+bool DeAssisQueue(pQueue_Assis &q, pBiTree &x){
+    if(isAssisQueueEmpty(q)) return false;//空队  出队失败
+
+    x=q->bt[q->front];q->length--;
+    q->front++;//步进
+    return true;
+}

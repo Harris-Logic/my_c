@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/liang/Desktop/c/bitree_create_and_order/bitree_create
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_顺序辅助队更为简单
 CMake Warning (dev) in CMakeLists.txt:
   No project() command is present.  The top-level CMakeLists.txt file must
   contain a literal, direct call to the project() command.  Add a line of
@@ -24,4 +24,4 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/liang/Desktop/c/bitree_create_and_order/bitree_create/cmake-build-debug
+-- Build files have been written to: /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_顺序辅助队更为简单/cmake-build-debug

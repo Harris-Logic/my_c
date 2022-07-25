@@ -18,11 +18,19 @@ typedef struct BiTree{
     struct BiTree* left;
     struct BiTree* right;
 }BiTree,*pBiTree;
+void iniBiTree(pBiTree &bt);
+bool isBiTreeEmpty(pBiTree bt);
+
 //队列
 //辅助队列 及相关操作
+//typedef struct Queue_Assis_Node{//顺序实现就不需要区分队列和队列结点了。
+//    pBiTree bt[MAXSIZE];
+//    struct Queue_Assis_Node ;
+//
+//}Queue_Assis_Node,*pQueue_Assis_Node;
 typedef struct Queue_Assis{
-    pBiTree bt[MAXSIZE];//树的数列,容纳MAXSIZE个树结点
-    int front,rear,cur;//头尾下标以及当前工作下标
+    pBiTree bt[MAXSIZE];//树的数列,容纳MAXSIZE个树结点//队列中的树数组成员 就是队列结点
+    int front,rear,cur;//头尾下标以及当前工作下标 指示队列结点
     int length;
 }Queue_Assis,*pQueue_Assis;
 void iniAssisQueue(pQueue_Assis &q);

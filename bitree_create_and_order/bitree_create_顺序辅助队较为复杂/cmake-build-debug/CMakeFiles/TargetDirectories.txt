@@ -1,3 +1,0 @@
-/Users/liang/Desktop/c/bitree_create_and_order/bitree_create/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/liang/Desktop/c/bitree_create_and_order/bitree_create/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/liang/Desktop/c/bitree_create_and_order/bitree_create/cmake-build-debug/CMakeFiles/_main.dir

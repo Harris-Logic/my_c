@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/_main.dir/BiTree.o"
   "CMakeFiles/_main.dir/Queue_Assis.o"
   "CMakeFiles/_main.dir/main.o"
   "_main"

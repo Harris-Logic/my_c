@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/liang/Desktop/c/bitree_create_and_order/bitree_create
+CMAKE_SOURCE_DIR = /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_顺序辅助队更为简单
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/liang/Desktop/c/bitree_create_and_order/bitree_create/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_顺序辅助队更为简单/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liang/Desktop/c/bitree_create_and_order/bitree_create/cmake-build-debug/CMakeFiles /Users/liang/Desktop/c/bitree_create_and_order/bitree_create/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_顺序辅助队更为简单/cmake-build-debug/CMakeFiles /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_顺序辅助队更为简单/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liang/Desktop/c/bitree_create_and_order/bitree_create/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_顺序辅助队更为简单/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,6 +143,21 @@ _main/fast:
 .PHONY : _main/fast
 
 # target to build an object file
+BiTree.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/BiTree.o
+.PHONY : BiTree.o
+
+# target to preprocess a source file
+BiTree.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/BiTree.i
+.PHONY : BiTree.i
+
+# target to generate assembly for a file
+BiTree.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/BiTree.s
+.PHONY : BiTree.s
+
+# target to build an object file
 Queue_Assis.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/Queue_Assis.o
 .PHONY : Queue_Assis.o
@@ -181,6 +196,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... _main"
+	@echo "... BiTree.o"
+	@echo "... BiTree.i"
+	@echo "... BiTree.s"
 	@echo "... Queue_Assis.o"
 	@echo "... Queue_Assis.i"
 	@echo "... Queue_Assis.s"
