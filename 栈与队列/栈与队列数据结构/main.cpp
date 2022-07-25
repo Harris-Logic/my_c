@@ -46,7 +46,7 @@ int main() {
     pbtAssis assis_que=NULL;
     initbtAssis(assis_que);
     BiTree t=NULL,newbt=NULL;
-//    initTree(t);
+//    initTree(t);//
 
     char c;
     //abcdefghijkl
