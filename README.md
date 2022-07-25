@@ -1,13 +1,16 @@
 # my_c
 
 ##后续更新，执行以下操作
+
 git pull
 git add .
 git commit -m "commit sth."
 git push -u origin main
 
 ##首次上传github，执行下列操作
+
 ###…or create a new repository on the command line
+
  echo "# my_c" >> README.md
 git init
 git add .
