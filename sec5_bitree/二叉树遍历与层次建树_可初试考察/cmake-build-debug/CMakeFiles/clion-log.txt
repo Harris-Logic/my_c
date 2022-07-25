@@ -12,17 +12,6 @@ CMake Warning (dev) in CMakeLists.txt:
   line.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
-CMake Warning (dev) at CMakeLists.txt:3 (add_executable):
-  Policy CMP0037 is not set: Target names should not be reserved and should
-  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
-  details.  Use the cmake_policy command to set the policy and suppress this
-  warning.
-
-  The target name "二叉树遍历与层次建树_可初试考察_main" is
-  reserved or not valid for certain CMake features, such as generator
-  expressions, and may result in undefined behavior.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
 CMake Warning (dev) in CMakeLists.txt:
   No cmake_minimum_required command is present.  A line of code such as
 

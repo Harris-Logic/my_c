@@ -50,5 +50,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/DependInfo.cmake"
+  "CMakeFiles/_main.dir/DependInfo.cmake"
   )

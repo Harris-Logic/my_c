@@ -130,61 +130,61 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 二叉树遍历与层次建树_可初试考察_main
+# Target rules for targets named _main
 
 # Build rule for target.
-二叉树遍历与层次建树_可初试考察_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二叉树遍历与层次建树_可初试考察_main
-.PHONY : 二叉树遍历与层次建树_可初试考察_main
+_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _main
+.PHONY : _main
 
 # fast build rule for target.
-二叉树遍历与层次建树_可初试考察_main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build.make CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build
-.PHONY : 二叉树遍历与层次建树_可初试考察_main/fast
+_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/build
+.PHONY : _main/fast
 
 # target to build an object file
 main.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build.make CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/main.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/main.o
 .PHONY : main.o
 
 # target to preprocess a source file
 main.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build.make CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/main.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/main.i
 .PHONY : main.i
 
 # target to generate assembly for a file
 main.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build.make CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/main.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/main.s
 .PHONY : main.s
 
 # target to build an object file
 queue.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build.make CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/queue.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/queue.o
 .PHONY : queue.o
 
 # target to preprocess a source file
 queue.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build.make CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/queue.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/queue.i
 .PHONY : queue.i
 
 # target to generate assembly for a file
 queue.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build.make CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/queue.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/queue.s
 .PHONY : queue.s
 
 # target to build an object file
 stack.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build.make CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/stack.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/stack.o
 .PHONY : stack.o
 
 # target to preprocess a source file
 stack.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build.make CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/stack.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/stack.i
 .PHONY : stack.i
 
 # target to generate assembly for a file
 stack.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/build.make CMakeFiles/二叉树遍历与层次建树_可初试考察_main.dir/stack.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_main.dir/build.make CMakeFiles/_main.dir/stack.s
 .PHONY : stack.s
 
 # Help Target
@@ -195,7 +195,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 二叉树遍历与层次建树_可初试考察_main"
+	@echo "... _main"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
