@@ -6,6 +6,10 @@
 
 int main() {
 
+    char c;
+    while(scanf("%c",&c)){
+        if(c=='\n') break;
+    }
     //    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
