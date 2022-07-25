@@ -28,12 +28,12 @@ bool isBiTreeEmpty(pBiTree bt);
 //    struct Queue_Assis_Node ;
 //
 //}Queue_Assis_Node,*pQueue_Assis_Node;
-typedef struct Queue_Assis{
+typedef struct Assis_Queue{
     pBiTree bt[MAXSIZE];//树的数列,容纳MAXSIZE个树结点//队列中的树数组成员 就是队列结点
     int front,rear,cur;//头尾下标以及当前工作下标 指示队列结点
     int length;
-}Queue_Assis,*pQueue_Assis;
-void iniAssisQueue(pQueue_Assis &q);
-bool isAssisQueueEmpty(pQueue_Assis q);
-bool EnAssisQueue(pQueue_Assis &q,pBiTree x);
-bool DeAssisQueue(pQueue_Assis &q, pBiTree &x);
+}Assis_Queue,*pAssis_Queue;
+void iniAssisQueue(pAssis_Queue &q);
+bool isAssisQueueEmpty(pAssis_Queue q);
+bool EnAssisQueue(pAssis_Queue &q,pBiTree x);
+bool DeAssisQueue(pAssis_Queue &q, pBiTree &x);
