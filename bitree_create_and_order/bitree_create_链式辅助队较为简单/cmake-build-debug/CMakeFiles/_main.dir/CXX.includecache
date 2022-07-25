@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/Assis_Queue.cpp
+main.h
+/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/main.h
+
+/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/main.h
+stdio.h
+/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/stdio.h
+stdlib.h
+/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/stdlib.h
+

@@ -11,6 +11,7 @@ void iniBiTree(pBiTree &t){
     t=(pBiTree) calloc(1,sizeof(BiTree));
 }
 bool isBiTreeEmpty(pBiTree t){
-    if(t->data==NULL||t==NULL) return true;//is Empty
+    if(t==NULL) return true;//is Empty
+    if(t->data==NULL) return true;
     else return false;
 }
