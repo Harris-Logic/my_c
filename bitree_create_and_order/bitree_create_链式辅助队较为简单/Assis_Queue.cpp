@@ -33,8 +33,8 @@ bool EnAssisQueue(pAssis_Queue &q,pBiTree x){//有坑
     if(q->length==MAXSIZE) return false;//full，入队失败
 //    iniAssisQueueNode(q->rear);
     q->rear->bt=x;
+    iniAssisQueueNode(q->rear->next);//坑！！！只要有新节点 要入队，必须calloc
     q->rear=q->rear->next;
-    iniAssisQueueNode(q->rear);//坑！！！只要有新节点 要入队，必须calloc
     q->length++;
 }
 bool DnAssisQueue(pAssis_Queue &q,pBiTree &x){
