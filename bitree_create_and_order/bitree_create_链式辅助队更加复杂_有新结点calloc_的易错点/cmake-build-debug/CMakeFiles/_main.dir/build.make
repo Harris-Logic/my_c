@@ -62,10 +62,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单
+CMAKE_SOURCE_DIR = /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/_main.dir/depend.make
@@ -78,42 +78,42 @@ include CMakeFiles/_main.dir/flags.make
 
 CMakeFiles/_main.dir/main.o: CMakeFiles/_main.dir/flags.make
 CMakeFiles/_main.dir/main.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/_main.dir/main.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_main.dir/main.o -c /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/_main.dir/main.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_main.dir/main.o -c /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/main.cpp
 
 CMakeFiles/_main.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_main.dir/main.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/main.cpp > CMakeFiles/_main.dir/main.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/main.cpp > CMakeFiles/_main.dir/main.i
 
 CMakeFiles/_main.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_main.dir/main.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/main.cpp -o CMakeFiles/_main.dir/main.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/main.cpp -o CMakeFiles/_main.dir/main.s
 
 CMakeFiles/_main.dir/Assis_Queue.o: CMakeFiles/_main.dir/flags.make
 CMakeFiles/_main.dir/Assis_Queue.o: ../Assis_Queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/_main.dir/Assis_Queue.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_main.dir/Assis_Queue.o -c /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/Assis_Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/_main.dir/Assis_Queue.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_main.dir/Assis_Queue.o -c /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/Assis_Queue.cpp
 
 CMakeFiles/_main.dir/Assis_Queue.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_main.dir/Assis_Queue.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/Assis_Queue.cpp > CMakeFiles/_main.dir/Assis_Queue.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/Assis_Queue.cpp > CMakeFiles/_main.dir/Assis_Queue.i
 
 CMakeFiles/_main.dir/Assis_Queue.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_main.dir/Assis_Queue.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/Assis_Queue.cpp -o CMakeFiles/_main.dir/Assis_Queue.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/Assis_Queue.cpp -o CMakeFiles/_main.dir/Assis_Queue.s
 
 CMakeFiles/_main.dir/BiTree.o: CMakeFiles/_main.dir/flags.make
 CMakeFiles/_main.dir/BiTree.o: ../BiTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/_main.dir/BiTree.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_main.dir/BiTree.o -c /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/BiTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/_main.dir/BiTree.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_main.dir/BiTree.o -c /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/BiTree.cpp
 
 CMakeFiles/_main.dir/BiTree.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_main.dir/BiTree.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/BiTree.cpp > CMakeFiles/_main.dir/BiTree.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/BiTree.cpp > CMakeFiles/_main.dir/BiTree.i
 
 CMakeFiles/_main.dir/BiTree.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_main.dir/BiTree.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/BiTree.cpp -o CMakeFiles/_main.dir/BiTree.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/BiTree.cpp -o CMakeFiles/_main.dir/BiTree.s
 
 # Object files for target _main
 _main_OBJECTS = \
@@ -129,7 +129,7 @@ _main: CMakeFiles/_main.dir/Assis_Queue.o
 _main: CMakeFiles/_main.dir/BiTree.o
 _main: CMakeFiles/_main.dir/build.make
 _main: CMakeFiles/_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable _main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable _main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +142,6 @@ CMakeFiles/_main.dir/clean:
 .PHONY : CMakeFiles/_main.dir/clean
 
 CMakeFiles/_main.dir/depend:
-	cd /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单 /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单 /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug/CMakeFiles/_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点 /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点 /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug/CMakeFiles/_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_main.dir/depend
 

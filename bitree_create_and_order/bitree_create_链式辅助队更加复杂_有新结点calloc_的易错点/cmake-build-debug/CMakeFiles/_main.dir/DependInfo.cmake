@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/Assis_Queue.cpp" "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug/CMakeFiles/_main.dir/Assis_Queue.o"
-  "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/BiTree.cpp" "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug/CMakeFiles/_main.dir/BiTree.o"
-  "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/main.cpp" "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug/CMakeFiles/_main.dir/main.o"
+  "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/Assis_Queue.cpp" "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug/CMakeFiles/_main.dir/Assis_Queue.o"
+  "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/BiTree.cpp" "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug/CMakeFiles/_main.dir/BiTree.o"
+  "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/main.cpp" "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug/CMakeFiles/_main.dir/main.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

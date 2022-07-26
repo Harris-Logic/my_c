@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/.
+CXX_INCLUDES = -I/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/.
 
 CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
 

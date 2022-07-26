@@ -1,4 +1,4 @@
-# Install script for directory: /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单
+# Install script for directory: /Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队较为简单/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/liang/Desktop/c/bitree_create_and_order/bitree_create_链式辅助队更加复杂_有新结点calloc_的易错点/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

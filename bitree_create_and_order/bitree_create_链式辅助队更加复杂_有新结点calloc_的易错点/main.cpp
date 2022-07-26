@@ -3,6 +3,7 @@
 //
 
 #include "main.h"
+
 void preOrder(pBiTree t){
     if(!isBiTreeEmpty(t)){
         putchar(t->data);
