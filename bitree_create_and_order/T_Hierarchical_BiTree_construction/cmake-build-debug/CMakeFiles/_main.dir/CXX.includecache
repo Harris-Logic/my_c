@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/bitree_create_and_order/T_Hierarchical_BiTree_construction/main.cpp
+stdio.h
+/Users/liang/Desktop/c/bitree_create_and_order/T_Hierarchical_BiTree_construction/stdio.h
+stdlib.h
+/Users/liang/Desktop/c/bitree_create_and_order/T_Hierarchical_BiTree_construction/stdlib.h
+

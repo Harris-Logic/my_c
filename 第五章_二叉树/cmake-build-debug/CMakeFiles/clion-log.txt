@@ -1,0 +1,28 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/liang/Desktop/c/第五章_二叉树
+CMake Error at CMakeLists.txt:7 (ADD_SUBDIRECTORY):
+  The source directory
+
+    /Users/liang/Desktop/c/第五章_二叉树/4.3.1_二叉树的遍历
+
+  does not contain a CMakeLists.txt file.
+
+
+CMake Error at CMakeLists.txt:8 (ADD_SUBDIRECTORY):
+  The source directory
+
+    /Users/liang/Desktop/c/第五章_二叉树/4.3.2_线索二叉树
+
+  does not contain a CMakeLists.txt file.
+
+
+CMake Error at CMakeLists.txt:9 (ADD_SUBDIRECTORY):
+  The source directory
+
+    /Users/liang/Desktop/c/第五章_二叉树/4.5_二叉排序树
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/liang/Desktop/c/第五章_二叉树/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/liang/Desktop/c/第五章_二叉树/cmake-build-debug/CMakeFiles/CMakeError.log".
