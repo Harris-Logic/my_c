@@ -58,7 +58,7 @@ void LevelOrder(BiTree T)
 	while(!IsEmpty(Q))
 	{
 		DeQueue(Q,p);
-		putchar(p->c);
+		putchar(p->c);//
 		if(p->lchild!=NULL)
 			EnQueue(Q,p->lchild);
 		if(p->rchild!=NULL)
