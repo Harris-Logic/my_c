@@ -14,7 +14,7 @@ bool IsEmpty(LinkQueue Q)
 		return false;
 }
 
-void EnQueue(LinkQueue &Q,ElemType x)
+void EnQueue(LinkQueue &Q,ElemType x)//Elemtype是二叉树节点指针
 {
 	LinkNode *s=(LinkNode *)malloc(sizeof(LinkNode));
 	s->data=x;s->next=NULL;

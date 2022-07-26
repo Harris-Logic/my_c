@@ -88,11 +88,12 @@ int main()
 		if(NULL==tree)
 		{
 			tree=pnew;//树的根
+			//下面入队
 			phead=listpnew;//队列头
 			ptail=listpnew;//队列尾
 			pcur=listpnew;
 			continue;
-		}else{
+		}else{//下面入队
 			ptail->pnext=listpnew;//新结点放入链表，通过尾插法
 			ptail=listpnew;//ptail指向队列尾部
 		}//pcur始终指向要插入的结点的位置

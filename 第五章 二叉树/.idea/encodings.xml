@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/4.3.1 二叉树的遍历/function.h" charset="GB2312" />
-    <file url="file://$PROJECT_DIR$/4.3.1 二叉树的遍历/main.cpp" charset="GB2312" />
-    <file url="file://$PROJECT_DIR$/4.3.1 二叉树的遍历/queue.cpp" charset="GB2312" />
-    <file url="file://$PROJECT_DIR$/4.3.1 二叉树的遍历/stack.cpp" charset="GB2312" />
-    <file url="file://$PROJECT_DIR$/4.3.2 线索二叉树/main.cpp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/../第五章_二叉树/4.3.1 二叉树的遍历/function.h" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/../第五章_二叉树/4.3.1 二叉树的遍历/main.cpp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/../第五章_二叉树/4.3.1 二叉树的遍历/queue.cpp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/../第五章_二叉树/4.3.1 二叉树的遍历/stack.cpp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/../第五章_二叉树/4.3.2 线索二叉树/main.cpp" charset="GB2312" />
   </component>
 </project>
