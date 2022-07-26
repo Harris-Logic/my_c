@@ -11,6 +11,34 @@ void preOrder(pBiTree t){
         preOrder(t->right);
     }
 }
+void inOrder(pBiTree t){
+    if(!isBiTreeEmpty(t)){
+        inOrder(t->left);
+        putchar(t->data);
+        inOrder(t->right);
+    }
+}
+void postOrder(pBiTree t){
+    if(!isBiTreeEmpty(t)){
+        postOrder(t->left);
+        postOrder(t->right);
+        putchar(t->data);
+    }
+}
+void levelOrder(pBiTree t){
+    pAssis_Queue q;
+    iniAssisQueue(q);
+    EnAssisQueue(q,t);
+    while(!isAssisQueueEmpty(q)){
+        pBiTree x=NULL;
+        DeAssisQueue(q,x);
+        putchar(x->data);
+        if(!isBiTreeEmpty(x->left))
+            EnAssisQueue(q,x->left);
+        if(!isBiTreeEmpty(x->right))
+            EnAssisQueue(q,x->right);
+    }
+}
 
 int main(){
     pBiTree t=NULL;//树的初始化必须是NULL，不能iniBiTree//其实是可以的，tree判空逻辑需要第一层和第二层，以免非法访问NULL指针
@@ -42,7 +70,18 @@ int main(){
             aq->cur=aq->cur->next;//辅助队列工作指针 步进
         }
     }
-    preOrder(t);
 
+    inOrder(t);
+    printf("\n");
+    postOrder(t);
+    printf("\n");
+    levelOrder(t);
     return 0;
 }
+/*
+
+abcdefghij
+hdibjeafcg
+hidjebfgca
+abcdefghij
+*/

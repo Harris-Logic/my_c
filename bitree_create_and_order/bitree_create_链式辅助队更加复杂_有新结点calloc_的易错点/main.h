@@ -32,5 +32,5 @@ typedef struct Assis_Queue{
 void iniAssisQueue(pAssis_Queue &q);
 bool isAssisQueueEmpty(pAssis_Queue q);
 bool EnAssisQueue(pAssis_Queue &q,pBiTree x);
-bool DnAssisQueue(pAssis_Queue &q,pBiTree &x);
+bool DeAssisQueue(pAssis_Queue &q,pBiTree &x);
 

@@ -37,7 +37,7 @@ bool EnAssisQueue(pAssis_Queue &q,pBiTree x){//有坑
     q->rear=q->rear->next;
     q->length++;
 }
-bool DnAssisQueue(pAssis_Queue &q,pBiTree &x){
+bool DeAssisQueue(pAssis_Queue &q,pBiTree &x){
     if(isAssisQueueEmpty(q)) return false;//is Empty出队失败
 
     x=q->front->bt;

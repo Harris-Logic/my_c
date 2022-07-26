@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/bitree_create_and_order/runtime_error_链式结构/main.cpp
+stdio.h
+/Users/liang/Desktop/c/bitree_create_and_order/runtime_error_链式结构/stdio.h
+stdlib.h
+/Users/liang/Desktop/c/bitree_create_and_order/runtime_error_链式结构/stdlib.h
+

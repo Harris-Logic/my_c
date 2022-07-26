@@ -9,6 +9,19 @@ void preOrder(pBiTree t){
         preOrder(t->right);
     }
 }
+void levelOrder_notrecursion(pBiTree t){
+    pAssis_Queue q;
+    iniAssisQueue(q);
+    EnAssisQueue(q,t);
+    while (!isAssisQueueEmpty(q)){
+        pBiTree x;
+        DeAssisQueue(q,x);
+        putchar(x->data);
+
+        if(!isBiTreeEmpty(x->left)) EnAssisQueue(q,x->left);
+        if(!isBiTreeEmpty(x->right)) EnAssisQueue(q,x->right);//不能是 else if
+    }
+}
 int main() {
     pBiTree t;
     iniBiTree(t);
@@ -35,7 +48,8 @@ int main() {
             aq->cur++;
         }
     }
-    preOrder(t);
+//    preOrder(t);
+    levelOrder_notrecursion(t);
     //    std::cout << "Hello, World!" << std::endl;
     return 0;
 }

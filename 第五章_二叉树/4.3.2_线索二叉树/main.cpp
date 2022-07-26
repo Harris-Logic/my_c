@@ -7,7 +7,7 @@ typedef struct ThreadNode{
 	ElemType data;
 	struct ThreadNode *lchild,*rchild;
 	int ltag,rtag;
-}ThreadNode,*ThreadTree;
+}ThreadNode,*ThreadTree;//线索树
 //手工建线索树，总计5个结点
 void BulidThreadTree(ThreadTree &T)
 {
