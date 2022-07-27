@@ -16,7 +16,7 @@ void BulidThreadTree(ThreadTree &T)
 	for(i=0;i<5;i++)
 	{
 		arr[i]=(ThreadTree)malloc(sizeof(ThreadNode));
-		memset(arr[i],0,sizeof(ThreadNode));
+		memset(arr[i],0,sizeof(ThreadNode));//这是什么东西
 		arr[i]->data='A'+i;
 	}
 	arr[0]->lchild=arr[1];
