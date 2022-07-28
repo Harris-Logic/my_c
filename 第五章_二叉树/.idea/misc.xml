@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/4.3.2_线索二叉树">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/4.5_二叉排序树">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
 </project>

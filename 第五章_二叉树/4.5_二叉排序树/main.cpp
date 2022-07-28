@@ -35,7 +35,7 @@ void Creat_BST(BiTree &T,KeyType str[],int n)
 		i++;
 	}
 }
-//递归算法简单，但执行效率较低，实现留给大家编写
+//递归算法简单，但执行效率较低，递归实现留给大家编写
 BSTNode *BST_Search(BiTree T,KeyType key,BiTree &p)
 {
 	p=NULL;
@@ -46,6 +46,13 @@ BSTNode *BST_Search(BiTree T,KeyType key,BiTree &p)
 		else T=T->rchild;//比当前节点大，右边去
 	}
 	return T;
+}
+BSTNode *BST_Search_recursion(BiTree t,KeyType key,BiTree &p){
+    p=NULL;
+    if(key==t->key) return t;
+    else if(key<t->key) return BST_Search_recursion(t->lchild,key,p);
+    else if(key>t->key) return BST_Search_recursion(t->rchild,key,p);
+    else return NULL;
 }
 //这个书上没有二叉排序树
 void DeleteNode(BiTree &root,KeyType x){
@@ -107,5 +114,6 @@ int main()
 	DeleteNode(T,66);
 	InOrder(T);
 	printf("\n");
-	system("pause");
+    return 0;
+//	system("pause");
 }
