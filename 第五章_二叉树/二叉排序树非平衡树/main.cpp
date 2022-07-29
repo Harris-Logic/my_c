@@ -8,6 +8,7 @@
 
 typedef int keytype;
 typedef int position;
+typedef int numstrlength;
 typedef struct BiTNode{
     keytype data;//不能申请数组空间！否则runtime error
     struct BiTNode *left,*right;
@@ -36,6 +37,22 @@ void inOrder(pBiTNode &t,keytype str[],position &pos){//pos是要辅助 往str[]
     }
 }
 
+bool binarysearch(keytype str[],numstrlength length,keytype target,position &pos){//修改：str数组
+    for(keytype h=length-1,l=0;l<=h;){
+        keytype m=(h+l)/2;
+        if(target==str[m]) {
+            pos=m;
+            return true;//命中当前mid下标，str[m]==要找的target值
+        } else{
+            if(target<str[m]){
+                h=m-1;
+            } else if(target> str[m]){
+                l=m+1;
+            } else
+                return false;//未找到
+        }
+    }
+}
 int main(){
     keytype str[MAXSIZE]={0};
     pBiTNode t=NULL;
@@ -47,10 +64,11 @@ int main(){
     int pos=0;
     inOrder(t,str,pos);
     printf("\n");
-    int i;
-    for(i=0;i<MAXSIZE;i++) {
-        if (str[i] == 21) break;
-    }
+    int i=0;
+    binarysearch(str,MAXSIZE,21,i);
+//    for(i=0;i<MAXSIZE;i++) {
+//        if (str[i] == 21) break;
+//    }
     printf("%d",i);
     return 0;
 }
