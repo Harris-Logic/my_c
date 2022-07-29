@@ -49,10 +49,14 @@ BSTNode *BST_Search(BiTree T,KeyType key,BiTree &p)
 }
 BSTNode *BST_Search_recursion(BiTree t,KeyType key,BiTree &p){
     p=NULL;
-    if(key==t->key) return t;
-    else if(key<t->key) return BST_Search_recursion(t->lchild,key,p);
-    else if(key>t->key) return BST_Search_recursion(t->rchild,key,p);
-    else return NULL;
+    if(t!=NULL&&key==t->key) return t;
+    if(t==NULL)
+        return NULL;
+    if(key<t->key)
+        return BST_Search_recursion(t->lchild,key,p);
+    if(key>t->key)
+        return BST_Search_recursion(t->rchild,key,p);
+//    else return NULL;
 }
 //这个书上没有二叉排序树
 void DeleteNode(BiTree &root,KeyType x){
@@ -60,7 +64,7 @@ void DeleteNode(BiTree &root,KeyType x){
         return;
     }
     if(root->key>x){
-        DeleteNode(root->lchild,x);
+        DeleteNode(root->lchild,x);//去左子树
     }else if(root->key<x){
         DeleteNode(root->rchild,x);
     }else{ //查找到了删除节点
@@ -104,12 +108,11 @@ int main()
 	Creat_BST(T,str,7);
 	InOrder(T);
 	printf("\n");
-	search=BST_Search(T,40,parent);
-	if(search)
-	{
-		printf("找到对应结点，值=%d\n",search->key);
+	search=BST_Search_recursion(T,40,parent);
+	if(search){
+		printf("Node finded,Nodekey=%d\n",search->key);
 	}else{
-		printf("未找到对应结点\n");
+		printf("not find Node\n");
 	}
 	DeleteNode(T,66);
 	InOrder(T);
