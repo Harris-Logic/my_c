@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/高级/只出现过一次的那个人/main.cpp
+stdio.h
+/Users/liang/Desktop/c/高级/只出现过一次的那个人/stdio.h
+stdlib.h
+/Users/liang/Desktop/c/高级/只出现过一次的那个人/stdlib.h
+
