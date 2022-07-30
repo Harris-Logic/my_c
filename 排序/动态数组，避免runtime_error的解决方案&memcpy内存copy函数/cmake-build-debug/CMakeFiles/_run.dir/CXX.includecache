@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/排序/动态数组，避免runtime_error的解决方案&memcpy内存copy函数/main.cpp
+stdio.h
+/Users/liang/Desktop/c/排序/动态数组，避免runtime_error的解决方案&memcpy内存copy函数/stdio.h
+string.h
+/Users/liang/Desktop/c/排序/动态数组，避免runtime_error的解决方案&memcpy内存copy函数/string.h
+
