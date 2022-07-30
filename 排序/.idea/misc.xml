@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/快排_分割函数partition">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
 </project>

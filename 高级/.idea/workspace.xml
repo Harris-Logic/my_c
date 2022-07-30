@@ -12,42 +12,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75a745f-f202-437d-bd33-a5d9157c46c4" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/_run.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/_run.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/_run.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/_run.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/_run.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/_run.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/_run.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/_run.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/_run.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/_run.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/_run.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/_run.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/_run.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/_run.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/_m.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/_m.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/_m.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/_m.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/_m.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/_m.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/_m.dir/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/_m.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/bubble_sort/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../排序/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/动态数组，避免runtime_error的解决方案&amp;memcpy内存copy函数/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

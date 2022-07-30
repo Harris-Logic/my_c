@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liang/Desktop/c/排序/快排_分割函数partition/main.cpp
+string.h
+/Users/liang/Desktop/c/排序/快排_分割函数partition/string.h
+stdio.h
+/Users/liang/Desktop/c/排序/快排_分割函数partition/stdio.h
+stdlib.h
+/Users/liang/Desktop/c/排序/快排_分割函数partition/stdlib.h
+time.h
+/Users/liang/Desktop/c/排序/快排_分割函数partition/time.h
+
