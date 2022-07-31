@@ -14,12 +14,12 @@ typedef struct numstractive{
     listlength length;//动态数组成员数
 }numstractive,*pnumstractive;
 void prinnumstr(pnumstractive a){
-    for(int i=0;i<a->length-1;i++)
+    for(int i=0;i<a->length;i++)
         printf("%d ",a->data[i]);
-    printf("\n");
+
 }
 void ramdatainit(pnumstractive &a,listlength len){
-    a->length=len+1;
+    a->length=len;
     a->data=(pkeytype)calloc(a->length,sizeof (keytype));
 //    int i;
     srand(time(NULL));
@@ -32,24 +32,37 @@ void swap(keytype &a,keytype &b){//交换排序的基础动作，swap
     a=b;
     b=tmp;
 }
-void partition(pnumstractive &a,strxiabiao l,strxiabiao h){//快排核心，快排分割函数 从小到大
-    if(l>=h) return;
+int partition(pnumstractive &a,strxiabiao l,strxiabiao h){//快排核心，快排分割函数 从小到大
+//    if(l>=h) return NULL;
     int k=l,i=l;
-    for(i=l;i<h-1;i++){
-        if(a->data[k]>a->data[i])
+    for(i=l;i<h;i++){
+        if(a->data[h]>a->data[i]){//暗示 以h即最后一个成员 作为分割者
             swap(a->data[k],a->data[i]);
+            k++;//k往后找，k所在的位置 已经被 分割者预定了
+        }
     }
-    swap(a->data[k],a->data[i+1]);//循环结束，交换分割者到位置k
-    partition(a,l,k-1);
-    partition(a,k+1,a->length);
+    swap(a->data[k],a->data[h]);//循环结束，交换分割者a.data[h]到位置k
+    return k;
+}
+void quicksort(pnumstractive &a,strxiabiao l,strxiabiao h){
+    strxiabiao pivot;//分割者 定义
+    if(l<h){//l尚小等于h
+        pivot= partition(a,l,h);
+        quicksort(a,l,pivot-1);
+        quicksort(a,pivot+1,h);
+    }
+
 }
 
 int main(){
     pnumstractive a=(pnumstractive) calloc(1,sizeof (numstractive));
     ramdatainit(a,10);
 
-    prinnumstr(a);
-    partition(a,0,a->length);
+    keytype A[10]={ 64, 94, 95, 79, 69, 84, 18, 12, 12 ,78};
+    memcpy(a->data,A,sizeof (A));
+    prinnumstr(a);printf("\n");
+    quicksort(a,0,a->length-1);
+    prinnumstr(a);printf("\n");
     prinnumstr(a);
     return 0;
 }
