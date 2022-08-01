@@ -50,7 +50,7 @@ void insertSort(pnumstractive &a){//思路二
         keytype tmp=a->data[i];
 
         int j=i-1;
-        while(1){//逐个往后挪一位 给新人腾一个地方
+        while(true){//逐个往后挪一位 给新人腾一个地方
             if(a->data[j]>tmp)
                 a->data[j+1]=a->data[j];
             else

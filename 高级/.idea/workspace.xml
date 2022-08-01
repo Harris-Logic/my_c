@@ -12,12 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75a745f-f202-437d-bd33-a5d9157c46c4" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/../排序/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/快排_分割函数partition/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/快排_分割函数partition/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/快排_分割函数partition/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/快排_分割函数partition/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/插入排序/cmake-build-debug/CMakeFiles/_m.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/插入排序/cmake-build-debug/CMakeFiles/_m.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/插入排序/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/插入排序/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../排序/插入排序/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/插入排序/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
