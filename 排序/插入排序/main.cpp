@@ -1,6 +1,6 @@
 //
 // Created by Liang on 2022/7/30.
-//
+//数组 一个一个往后挪给插入者腾位置。插入位是j+1，j初值为i-1，插入者和a[j]比大小
 #include "string.h"
 #include "stdio.h"
 #include "stdlib.h"
