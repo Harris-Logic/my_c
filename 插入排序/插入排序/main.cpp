@@ -86,7 +86,7 @@ void MidInsertSort(ElemType A[],int n)
         A[high+1]=A[0];
     }
 }
-//希尔排序 和你的代碼不兼容 
+//希尔排序 和你的代碼不兼容
 //多轮插入排序，考的概率很低，因为编写起来复杂，同时效率并不如快排，堆排
 void ShellSort(ElemType A[],int n){
     int dk,i,j;
@@ -106,9 +106,11 @@ void ShellSort(ElemType A[],int n){
 int main(){
     pnumstractive a=(pnumstractive) calloc(1,sizeof (numstractive));
     ramdatainit(a,10);
+    
     prinnumstr(a);
     ShellSort(a->data,10);
-//    insertSort(a);
+    prinnumstr(a);
+    insertSort(a);
     prinnumstr(a);
     return 0;
 }

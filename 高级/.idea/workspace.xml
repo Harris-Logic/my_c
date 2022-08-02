@@ -12,7 +12,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75a745f-f202-437d-bd33-a5d9157c46c4" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../test/快排.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/快排.xcodeproj/xcuserdata/liang.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/快排/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xcode_c/xcode_c.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xcode_c/xcode_c.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xcode_c/xcode_c.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xcode_c/xcode_c.xcodeproj/project.xcworkspace/xcuserdata/liang.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xcode_c/xcode_c.xcodeproj/xcuserdata/liang.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xcode_c/xcode_c/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xcode_c/排序/堆排序/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xcode_c/排序/堆排序/main.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../冒泡排序/冒泡排序.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../冒泡排序/冒泡排序/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../动态数组回避runtime_error&amp;memcpy函数/动态数组回避runtime_error&amp;memcpy函数.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../动态数组回避runtime_error&amp;memcpy函数/动态数组回避runtime_error&amp;memcpy函数/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/插入排序/cmake-build-debug/CMakeFiles/_m.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/插入排序/cmake-build-debug/CMakeFiles/_m.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/插入排序/cmake-build-debug/CMakeFiles/_m.dir/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../排序/插入排序/cmake-build-debug/_m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../插入排序/插入排序.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../插入排序/插入排序/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bitree_create_and_order/BST/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../bitree_create_and_order/BST/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../排序/插入排序/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/插入排序/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../排序/插入排序/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../排序/插入排序/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第五章_二叉树/二叉排序树非平衡树/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../第五章_二叉树/二叉排序树非平衡树/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/只出现过一次的那个人/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/只出现过一次的那个人/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +84,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,6 +95,7 @@
       <updated>1659087590963</updated>
       <workItem from="1659087593015" duration="1592000" />
       <workItem from="1659266048819" duration="598000" />
+      <workItem from="1659369530960" duration="594000" />
     </task>
     <servers />
   </component>
