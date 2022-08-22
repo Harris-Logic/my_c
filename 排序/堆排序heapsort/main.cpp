@@ -1,6 +1,6 @@
 // Created by Liang on 2022/8/2.
 // 堆排序可能考代码，往年考过
-//大根堆 堆排序，选择排序的一种。
+//大根堆 堆排序，选择排序的一种。 堆排序不是交换排序！
 // 核心是HeapAdjust的反复调用。BuildMaxHeap函数从后向前for循环HeapAdjust，第一次是最后面的那个小二叉树。
 // HeapSort先a.length个人的范围内 BuildMaxHeap一次，然后for，每次交换最后一个人和第一个人(让最大的人 去"已有序的序列"里)，
 // 然后，减少一个人的范围循环BuildMaxHeap。知道人数范围减少至0
@@ -28,7 +28,7 @@ void prinnumstr(pnumstractive a){
         printf("%d ",a->data[i]);
     printf("\n");
 }
-void ramdatainit(pnumstractive &a,listlength len){
+void ramdatainit(pnumstractive &a,listlength len){//初始化函数
     a->length=len;
     a->data=(pkeytype)calloc(a->length,sizeof (keytype));
 //    int i;
@@ -37,7 +37,7 @@ void ramdatainit(pnumstractive &a,listlength len){
         a->data[i]=rand()%100;
     }
 }
-void heapadjust(pElemType &a,strxiabiao k,listlength length){
+void heapadjust(pElemType &a,strxiabiao k,listlength length){//好牛逼的写法，很容易理解。虽然不够考研
     strxiabiao dad=k,son=dad*2+1;//son取左孩子下标
 //    ElemType tmp=a[dad];//不需要这个王道的逻辑，更容易理解的代码
     while(1){
@@ -65,7 +65,7 @@ void buildmaxheap(pnumstractive &a,listlength length){
 //    printf("buildmaxheap:");
 //    prinnumstr(a);//大根堆建立没问题
 }
-void heapsort(pnumstractive &str){
+void heapsort(pnumstractive &str){//大根堆排序 执行排序的函数
     buildmaxheap(str,str->length);
     strxiabiao i=str->length-1;
     while (1){
@@ -75,10 +75,20 @@ void heapsort(pnumstractive &str){
         i--;
     }
 }
-
+listlength countNumStr(pElemType b){
+    int i;
+    for(i=0;b[i]!=NULL;i++);
+    i--;
+    return i;
+}
 int main(){
+    ElemType b[]={44,53,52,73,87,82,12,14,25,33,36,47};
     pnumstractive a=(pnumstractive) calloc(1,sizeof (numstractive));
-    ramdatainit(a,10);
+    ramdatainit(a,countNumStr(b));
+
+    memcpy(a->data,b,sizeof (b));//经常忘记的语法。非常实用
+
+//    a->length= countNumStr(b);
     prinnumstr(a);
 
     heapsort(a);
