@@ -14,9 +14,15 @@ typedef int keytype,*pkeytype;
 typedef int listlength;
 typedef int strxiabiao;
 typedef struct numstractive{
-    keytype *data;//这样，回避 在结构体中声明 大量数组空间，挤占main栈空间造成runtime error
+    pkeytype data;//这样，回避 在结构体中声明 大量数组空间，挤占main栈空间造成runtime error
     listlength length;//动态数组成员数
 }numstractive,*pnumstractive;
+listlength countNumStr(pElemType b){
+    int i;
+    for(i=0;b[i]!=NULL;i++);
+    i--;
+    return i;
+}
 void swap(ElemType &a,ElemType &b){
     ElemType tmp;
     tmp=a;
@@ -37,25 +43,44 @@ void ramdatainit(pnumstractive &a,listlength len){//初始化函数
         a->data[i]=rand()%100;
     }
 }
-void heapadjust(pElemType &a,strxiabiao k,listlength length){//好牛逼的写法，很容易理解。虽然不够考研
-    strxiabiao dad=k,son=dad*2+1;//son取左孩子下标
-//    ElemType tmp=a[dad];//不需要这个王道的逻辑，更容易理解的代码
+//堆排序算法核心
+//好牛逼的写法，很容易理解。虽然不够考研
+//void heapadjust(pElemType &a,strxiabiao k,listlength length){
+//    strxiabiao dad=k,son=dad*2+1;//son取左孩子下标
+////    ElemType tmp=a[dad];//不需要这个王道的逻辑，更容易理解的代码
+//    while(1){
+//        if(son>length-1) break;//length-1是最后一个元素 son越界
+//        if(son<0) break;
+//        //下面这两个判断决定 是大根堆还是小根堆
+//        if(son+1<length && a[son]<a[son+1])//取左右孩子里 较大的那个
+//            son++;
+//        if(a[dad]>a[son])//爹比孩子大，符合大根堆 break
+//            break;
+//        else{
+//            swap(a[dad],a[son]);
+//            //a[dad]=a[son];//dad变son，下沉
+//            dad=son;son=dad*2+1;//下沉，调整下面的子树
+//        }
+////        son*=2;
+//    }
+////    a[dad]=tmp;
+//}
+void heapadjust(ElemType* &a,int k,int length){
+    int dad=k,son=2*dad+1;//注意k不是引用，只能用dad来代替他 进入循环改变数值
     while(1){
-        if(son>length-1) break;//length-1是最后一个元素 son越界
-        if(son<0) break;
-        //下面这两个判断决定 是大根堆还是小根堆
-        if(son+1<length && a[son]<a[son+1])//取左右孩子里 较大的那个
-            son++;
-        if(a[dad]>a[son])//爹比孩子大，符合大根堆 break
-            break;
-        else{
-            swap(a[dad],a[son]);
-            //a[dad]=a[son];//dad变son，下沉
-            dad=son;son=dad*2+1;//下沉，调整下面的子树
-        }
-//        son*=2;
+        if(son+1>length) break;
+        if(son+1<length && a[son]<a[son+1]) son++;//
+        if(a[dad]<a[son]) {
+            swap(a[son], a[dad]);
+            dad = son;son = 2 * dad + 1;
+        }else break;//常忘点
+
     }
-//    a[dad]=tmp;
+}
+void heapbuild(int a[],int length){
+    for(int i=(length-1)/2;i>0;i--){
+        heapadjust(a,i,length);
+    }
 }
 void buildmaxheap(pnumstractive &a,listlength length){
     //末尾成员号为length-1，除以二是他的父亲节点
@@ -66,21 +91,16 @@ void buildmaxheap(pnumstractive &a,listlength length){
 //    prinnumstr(a);//大根堆建立没问题
 }
 void heapsort(pnumstractive &str){//大根堆排序 执行排序的函数
-    buildmaxheap(str,str->length);
+    buildmaxheap(str, str->length);
     strxiabiao i=str->length-1;
     while (1){
         if(i<0) break;
-        swap(str->data[i],str->data[0]);
-        buildmaxheap(str,i);//数列末尾那几个人 逐渐不承认为堆成员。末尾形成有序序列
-        i--;
+        swap(str->data[i],str->data[0]);//数列末尾那几个人 逐渐不承认为堆成员。末尾形成有序序列
+        buildmaxheap(str,i);//交换后重新建堆
+        i--;//重复下去
     }
 }
-listlength countNumStr(pElemType b){
-    int i;
-    for(i=0;b[i]!=NULL;i++);
-    i--;
-    return i;
-}
+
 int main(){
     ElemType b[]={44,53,52,73,87,82,12,14,25,33,36,47};
     pnumstractive a=(pnumstractive) calloc(1,sizeof (numstractive));
@@ -93,6 +113,9 @@ int main(){
 
     heapsort(a);
     prinnumstr(a);
+//    for(int duiwei=len;;){
+//        swap(a->data[0],a->data[duiwei]);
+//    }
 //    printf("%d",1/2);
     return 0;
 }

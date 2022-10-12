@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/排序/bubble_sort">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/408数据结构代码实例/顺序存储的二叉树、链式存储的二叉树">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
 </project>
