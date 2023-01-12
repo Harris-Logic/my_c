@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bypath/learn/deployment/20230110/log4cpp/Myloger.cpp
+Myloger.h
+/home/bypath/learn/deployment/20230110/log4cpp/Myloger.h
+
+/home/bypath/learn/deployment/20230110/log4cpp/Myloger.h
+iostream
+-
+string
+/home/bypath/learn/deployment/20230110/log4cpp/string
+ostream
+/home/bypath/learn/deployment/20230110/log4cpp/ostream
+log4cpp/OstreamAppender.hh
+-
+log4cpp/SimpleLayout.hh
+-
+log4cpp/OstreamAppender.hh
+/home/bypath/learn/deployment/20230110/log4cpp/log4cpp/OstreamAppender.hh
+log4cpp/Category.hh
+/home/bypath/learn/deployment/20230110/log4cpp/log4cpp/Category.hh
+log4cpp/Priority.hh
+-
+log4cpp/BasicLayout.hh
+-
+log4cpp/PatternLayout.hh
+-
+log4cpp/FileAppender.hh
+-
+log4cpp/RollingFileAppender.hh
+-
+
+/home/bypath/learn/deployment/20230110/log4cpp/zuoyelog4fengzhuang.cpp
+Myloger.h
+/home/bypath/learn/deployment/20230110/log4cpp/Myloger.h
+iostream
+/home/bypath/learn/deployment/20230110/log4cpp/iostream
+

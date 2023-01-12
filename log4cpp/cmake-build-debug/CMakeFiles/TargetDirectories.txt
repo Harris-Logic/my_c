@@ -1,0 +1,3 @@
+/home/bypath/learn/deployment/20230110/log4cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bypath/learn/deployment/20230110/log4cpp/cmake-build-debug/CMakeFiles/_M.dir
+/home/bypath/learn/deployment/20230110/log4cpp/cmake-build-debug/CMakeFiles/edit_cache.dir

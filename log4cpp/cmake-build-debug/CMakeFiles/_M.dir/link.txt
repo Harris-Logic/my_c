@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/_M.dir/zuoyelog4fengzhuang.cpp.o CMakeFiles/_M.dir/Myloger.cpp.o  -o _M  -L/usr/local/include/log4cpp -Wl,-rpath,/usr/local/include/log4cpp -llog4cpp -lpthread 
