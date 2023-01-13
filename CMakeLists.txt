@@ -1,15 +1,14 @@
 cmake_minimum_required(VERSION 3.10.2)
-
 set(CMAKE_CXX_STANDARD 14)
+ADD_COMPILE_OPTIONS(-fno-elide-constructors)
 
-include_directories(/usr/local/include/log4cpp)
-link_directories("/usr/local/include/log4cpp")
-ADD_EXECUTABLE(_M log4cpp/zuoyelog4fengzhuang.cpp log4cpp/Myloger.h)
+ADD_EXECUTABLE(_M Singletonautorelease.cpp)
 #相当于 -lpthread -llog4cpp 必须分开写！
 #target_link_libraries(_M log4cpp)#相当于 -llog4cpp
-#target_link_libraries(_M pthread)#相当于 -lpthread
+target_link_libraries(_M pthread)#相当于 -lpthread
+#include_directories(/usr/local/include/log4cpp)
+#link_directories("/usr/local/include/log4cpp")
 
-ADD_COMPILE_OPTIONS(-fno-elide-constructors)
 
 #错误的#ADD_COMPILE_OPTIONS(-llog4cpp -lpthread)
 #target_include_directories(_M
